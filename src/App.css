@@ -1,35 +1,37 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
   width: 100%;
   height: 100%;
 }
 
-#header {
-  height: 150px;
-  background-color: #11ffee00;
-}
-
-#home {
-  height: 650px;
-  background-color: chartreuse;
-}
-
 #about {
   height: 650px;
-  /*background-color: burlywood;*/
 }
 
 #skills {
   height: 650px;
-  /*background-color: darkcyan;*/
 }
 
 #portfolio {
   height: 650px;
-  /*background-color: lightpink;*/
 }
 
 #contact {
   height: 650px;
-  /*background-color: lightblue;*/
+}
+
+#transition-1 {
+  height: 120px;
+  background-image: url("./images/lignes-code.jpg");
+  background-size: cover;
+}
+#transition-2 {
+  height: 120px;
+  background-image: url("./images/eclipse.jpg");
+  background-size: cover;
+}
+#transition-3 {
+  height: 120px;
+  background-image: url("./images/clavier.jpg");
+  background-size: cover;
 }
