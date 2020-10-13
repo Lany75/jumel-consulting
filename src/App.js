@@ -1,24 +1,20 @@
 import React from "react";
-//import logo from "./logo.svg";
-import nasa from "./images/espace.jpg";
 import "./App.css";
-import Transition from "./components/transition/Transition";
-
-console.log(nasa);
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 
 function App() {
   return (
     <div className="App">
-      <div id="home">
-        <div id="header">Header</div>
-        Home
-      </div>
+      <Header />
+      <Home />
+
       <div id="about">About</div>
-      <Transition lien={nasa} />
+      <div id="transition-1"></div>
       <div id="skills">Skills</div>
-      <Transition lien={nasa} />
+      <div id="transition-2"></div>
       <div id="portfolio">Portfolio</div>
-      <Transition lien={nasa} />
+      <div id="transition-3"></div>
       <div id="contact">Contact</div>
     </div>
   );

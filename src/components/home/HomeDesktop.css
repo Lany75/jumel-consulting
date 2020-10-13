@@ -1,0 +1,32 @@
+#home {
+  color: white;
+  height: 500px;
+  font-size: 80px;
+  padding-top: 150px;
+  background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+}
+
+#nom-entreprise {
+  animation-name: move-vertically, move-orizontally;
+  animation-duration: 10s, 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move-vertically {
+  from {
+    margin-top: 2%;
+  }
+  to {
+    margin-top: 350px;
+  }
+}
+@keyframes move-orizontally {
+  from {
+    margin-left: 5%;
+  }
+  to {
+    margin-left: 55%;
+  }
+}
