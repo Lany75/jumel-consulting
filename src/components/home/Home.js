@@ -1,10 +1,10 @@
 import React from "react";
-import "./Home.css";
+
+import "./HomeDesktop.css";
 
 const Home = () => {
   return (
     <div id="home">
-      <div id="header">Header</div>
       <div id="nom-entreprise">JUMEL CONSULTING</div>
     </div>
   );
