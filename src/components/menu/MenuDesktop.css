@@ -10,7 +10,8 @@
 .div-menu {
   width: 200px;
 }
-a {
+
+.div-menu {
   text-decoration: none;
   color: white;
 }
