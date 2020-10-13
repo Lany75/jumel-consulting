@@ -4,21 +4,21 @@ import "./MenuDesktop.css";
 const Menu = () => {
   return (
     <div id="menu">
-      <div className="div-menu">
-        <a href="#home">Accueil</a>
-      </div>
-      <div className="div-menu">
-        <a href="#about">A propos</a>
-      </div>
-      <div className="div-menu">
-        <a href="#skills">Compétences</a>
-      </div>
-      <div className="div-menu">
-        <a href="#portfolio">Portfolio</a>
-      </div>
-      <div className="div-menu">
-        <a href="#contact">Contact</a>
-      </div>
+      <a href="#home" className="div-menu">
+        Accueil
+      </a>
+      <a href="#transition-1" className="div-menu">
+        A propos
+      </a>
+      <a href="#transition-2" className="div-menu">
+        Compétences
+      </a>
+      <a href="#transition-3" className="div-menu">
+        Portfolio
+      </a>
+      <a href="#transition-4" className="div-menu">
+        Contact
+      </a>
     </div>
   );
 };
