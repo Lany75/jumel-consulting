@@ -1,35 +1,48 @@
-#header {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  height: 150px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: black;
-}
+@media screen and (min-width: 769px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+  }
 
-#phone-mail {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  height: 20px;
-  padding: 15px 50px 15px 50px;
-}
+  #menu-mobile-phone-mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
 
-#phone,
-#mail {
-  display: flex;
-  flex-direction: row;
-}
+  #menu-mobile {
+    display: none;
+  }
 
-.icon {
-  font-size: 25px;
-  margin: 0px 10px 0px 10px;
-}
+  #phone-mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    padding: 15px 50px 15px 50px;
+  }
 
-.text {
-  font-size: 20px;
+  #phone,
+  #mail {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon {
+    font-size: 25px;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
 }

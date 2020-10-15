@@ -1,6 +1,6 @@
 import React from 'react';
 import { CgArrowUpO } from 'react-icons/cg';
-import './Portfolio.css';
+import './PortfolioDesktop.css';
 
 const Portfolio = () => {
   return(

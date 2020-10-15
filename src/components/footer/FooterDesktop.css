@@ -1,4 +1,6 @@
-#footer {
-  background-color: black;
-  height: 100px;
+@media screen and (min-width: 769px) {
+  #footer {
+    background-color: black;
+    height: 100px;
+  }
 }
