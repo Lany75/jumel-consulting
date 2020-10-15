@@ -1,9 +1,10 @@
 import React from "react";
 import "./MenuDesktop.css";
+import "./MenuMobile.css";
 
 const Menu = () => {
   return (
-    <div id="menu">
+    <div id="menu-desktop">
       <a href="#home" className="div-menu">
         Accueil
       </a>

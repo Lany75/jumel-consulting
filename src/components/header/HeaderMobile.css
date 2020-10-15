@@ -1,0 +1,37 @@
+@media screen and (max-width: 769px) {
+  #header {
+    background-color: black;
+    color: white;
+  }
+
+  #menu-mobile-phone-mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #menu-mobile {
+    display: block;
+    font-size: 30px;
+  }
+
+  #phone-mail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #phone,
+  #mail {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon {
+    font-size: 15px;
+    margin: 0px 5px 0px 5px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+}
