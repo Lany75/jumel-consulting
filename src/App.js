@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./components/about/About";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
+import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <div id="transition-2" className='transition'></div>
       <Skills />
       <div id="transition-3" className='transition'></div>
-      <div id="portfolio">Portfolio</div>
+      <Portfolio />
       <div id="transition-4" className='transition'></div>
       <div id="contact">Contact</div>
       <div id='footer'>Pied de page</div>
