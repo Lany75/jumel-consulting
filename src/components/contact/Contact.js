@@ -1,6 +1,6 @@
 import React from 'react';
 import { CgArrowUpO } from 'react-icons/cg';
-import './Contact.css';
+import './ContactDesktop.css';
 
 const Contact = () => {
   return (

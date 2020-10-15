@@ -1,6 +1,6 @@
 import React from 'react';
 import { CgArrowUpO } from 'react-icons/cg';
-import './Skills.css'
+import './SkillsDesktop.css'
 
 const Skills = () => {
   return (

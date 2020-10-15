@@ -1,33 +1,35 @@
-#home {
-  color: white;
-  height: 350px;
-  font-size: 80px;
-  padding-top: 150px;
-  /*background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+@media screen and (min-width: 769px) {
+  #home {
+    color: white;
+    height: 350px;
+    font-size: 80px;
+    padding-top: 150px;
+    /*background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
   background-size: cover;*/
-  /*background-color: green;*/
-}
+    /*background-color: green;*/
+  }
 
-#nom-entreprise {
-  animation-name: move-vertically, move-orizontally;
-  animation-duration: 10s, 20s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
+  #nom-entreprise {
+    animation-name: move-vertically, move-orizontally;
+    animation-duration: 10s, 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
 
-@keyframes move-vertically {
-  from {
-    margin-top: 2%;
+  @keyframes move-vertically {
+    from {
+      margin-top: 2%;
+    }
+    to {
+      margin-top: 350px;
+    }
   }
-  to {
-    margin-top: 350px;
-  }
-}
-@keyframes move-orizontally {
-  from {
-    margin-left: 5%;
-  }
-  to {
-    margin-left: 55%;
+  @keyframes move-orizontally {
+    from {
+      margin-left: 5%;
+    }
+    to {
+      margin-left: 55%;
+    }
   }
 }
