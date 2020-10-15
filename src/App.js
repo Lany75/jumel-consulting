@@ -8,15 +8,18 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
-      <div id="transition-1"></div>
+      <div id="home-transition">
+        <Home />
+        <div id="transition-1" className='transition'></div>
+      </div>
       <About />
-      <div id="transition-2"></div>
+      <div id="transition-2" className='transition'></div>
       <div id="skills">Skills</div>
-      <div id="transition-3"></div>
+      <div id="transition-3" className='transition'></div>
       <div id="portfolio">Portfolio</div>
-      <div id="transition-4"></div>
+      <div id="transition-4" className='transition'></div>
       <div id="contact">Contact</div>
+      <div id='footer'>Pied de page</div>
     </div>
   );
 }

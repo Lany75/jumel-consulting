@@ -1,10 +1,11 @@
 #home {
   color: white;
-  height: 500px;
+  height: 350px;
   font-size: 80px;
   padding-top: 150px;
-  background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
-  background-size: cover;
+  /*background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;*/
+  /*background-color: green;*/
 }
 
 #nom-entreprise {
