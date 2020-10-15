@@ -3,34 +3,24 @@
   height: 100%;
 }
 
-#skills {
-  height: 650px;
+#home-transition {
+  background-image: url("./images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
 }
 
-#portfolio {
-  height: 650px;
-}
-
-#contact {
-  height: 650px;
-}
-
-#transition-1 {
+.transition {
   height: 150px;
-  background-color: white;
 }
+
 #transition-2 {
-  height: 150px;
   background-image: url("./images/lignes-code.jpg");
   background-size: cover;
 }
 #transition-3 {
-  height: 150px;
   background-image: url("./images/eclipse.jpg");
   background-size: cover;
 }
 #transition-4 {
-  height: 150px;
   background-image: url("./images/clavier.jpg");
   background-size: cover;
 }

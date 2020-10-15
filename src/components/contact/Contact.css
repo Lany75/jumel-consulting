@@ -1,8 +1,8 @@
-#about {
+#contact {
   height: 650px;
 }
 
-#text-about {
+#titre-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
