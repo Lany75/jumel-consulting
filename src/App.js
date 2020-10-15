@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -20,7 +21,7 @@ function App() {
       <div id="transition-3" className='transition'></div>
       <Portfolio />
       <div id="transition-4" className='transition'></div>
-      <div id="contact">Contact</div>
+      <Contact />
       <div id='footer'>Pied de page</div>
     </div>
   );
