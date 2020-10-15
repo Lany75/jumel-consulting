@@ -5,6 +5,10 @@ import App from '../App';
 import Header from '../components/header/Header';
 import Home from '../components/home/Home';
 import About from '../components/about/About';
+import Skills from '../components/skills/Skills';
+import Portfolio from '../components/portfolio/Portfolio';
+import Contact from '../components/contact/Contact';
+import Footer from '../components/footer/Footer';
 
 describe('composant <App />', ()=> {
   const app = shallow(<App />);
@@ -21,20 +25,20 @@ describe('composant <App />', ()=> {
     expect(app).to.contain(<About />);
   })
 
-  it.skip('App contains a Skills component', ()=> {
-    //expect(app).to.contain(<Skills />);
+  it('App contains a Skills component', ()=> {
+    expect(app).to.contain(<Skills />);
   })
 
-  it.skip('App contains a Portfolio component', ()=> {
-    //expect(app).to.contain(<Portfolio />);
+  it('App contains a Portfolio component', ()=> {
+    expect(app).to.contain(<Portfolio />);
   })
 
-  it.skip('App contains a Contact component', ()=> {
-    //expect(app).to.contain(<Contact />);
+  it('App contains a Contact component', ()=> {
+    expect(app).to.contain(<Contact />);
   })
 
-  it.skip('App contains a Footer component', ()=>{
-    //expect(app).to.contain(<Footer />);
+  it('App contains a Footer component', ()=>{
+    expect(app).to.contain(<Footer />);
   })
 
   it('App contains 4 Transition blocks', ()=>{
