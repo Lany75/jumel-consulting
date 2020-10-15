@@ -15,22 +15,24 @@
   height: 650px;
 }
 
-#transition-1 {
-  height: 150px;
-  background-color: white;
+#home-transition {
+  background-image: url("./images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
 }
-#transition-2 {
+
+.transition {
   height: 150px;
+}
+
+#transition-2 {
   background-image: url("./images/lignes-code.jpg");
   background-size: cover;
 }
 #transition-3 {
-  height: 150px;
   background-image: url("./images/eclipse.jpg");
   background-size: cover;
 }
 #transition-4 {
-  height: 150px;
   background-image: url("./images/clavier.jpg");
   background-size: cover;
 }
