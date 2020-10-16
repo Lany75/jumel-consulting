@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   #menu-mobile {
@@ -18,6 +19,7 @@
   #phone-mail {
     display: flex;
     flex-direction: column;
+    padding: 5px 0px 5px 0px;
   }
 
   #phone,
