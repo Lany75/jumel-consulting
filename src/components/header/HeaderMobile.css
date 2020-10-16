@@ -2,12 +2,18 @@
   #header {
     background-color: black;
     color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
   #menu-mobile-phone-mail {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   #menu-mobile {
@@ -18,6 +24,7 @@
   #phone-mail {
     display: flex;
     flex-direction: column;
+    padding: 5px 0px 5px 0px;
   }
 
   #phone,
