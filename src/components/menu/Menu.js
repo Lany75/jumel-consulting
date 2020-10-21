@@ -9,13 +9,13 @@ const Menu = () => {
         Accueil
       </a>
       <a href="#transition-1" className="div-menu">
-        A propos
+        Expertise
       </a>
       <a href="#transition-2" className="div-menu">
         Compétences
       </a>
       <a href="#transition-3" className="div-menu">
-        Portfolio
+        Expérience
       </a>
       <a href="#transition-4" className="div-menu">
         Contact

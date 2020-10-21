@@ -1,6 +1,6 @@
 @media screen and (min-width: 769px) {
   #contact {
-    height: 650px;
+    height: auto;
   }
 
   #titre-contact {
@@ -51,8 +51,11 @@
   }
 
   .icon-retour {
-    margin-left: 200px;
+    margin: 50px 0px 50px 200px;
     font-size: 30px;
+  }
+
+  .icon-retour a {
     text-decoration: none;
     color: black;
   }

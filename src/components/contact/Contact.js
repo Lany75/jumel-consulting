@@ -59,10 +59,8 @@ const Contact = () => {
       <Button variant="contained" disableElevation>Envoyer</Button>
     </form>
     </div>
-    <div>
-      <a href="#home" className="icon-retour">
-        <CgArrowUpO />
-      </a>
+    <div className="icon-retour">
+      <a href="#home"><CgArrowUpO /></a>
     </div>
   </div>
   )
