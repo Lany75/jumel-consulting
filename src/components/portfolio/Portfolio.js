@@ -12,7 +12,6 @@ const Portfolio = () => {
   return(
     
   <div id="portfolio">
-    <div id="titre-portfolio">Portfolio</div>
     <div id="text-portfolio">
       <div className="experiences">
         <div id="experience-1">
