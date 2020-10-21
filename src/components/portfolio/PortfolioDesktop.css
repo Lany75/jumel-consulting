@@ -3,15 +3,6 @@
     height: auto;
   }
 
-  #titre-portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 10%;
-    font-size: 50px;
-    margin-bottom: 50px;
-  }
-
   .icon-retour {
     font-size: 30px;
     margin: 50px 0px 50px 200px;
@@ -25,6 +16,7 @@
   #text-portfolio {
     display: flex;
     flex-direction: column;
+    margin-top: 75px;
   }
 
   .experiences {
@@ -65,28 +57,4 @@
     font-size: 25px;
     font-style: italic;
   }
-
-  /*.mission-experience {
-    font-size: 20px;
-    padding-right: 10px;
-  }*/
-
-  /*.environnement-technique,
-  .environnement-fonctionnel {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* justify-content: space-around;*/
-  /*  margin: 20px 0px 20px 0px;
-  }*/
-
-  /*#titre-env-tech,
-  #titre-env-fonct {
-    width: 250px;
-  }*/
-
-  /*#comp-env-tech,
-  #comp-env-fonct {
-    width: 250px;
-  }*/
 }
