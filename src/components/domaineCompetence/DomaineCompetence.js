@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiShieldCheck } from 'react-icons/hi';
 import './DomaineCompetenceDesktop.css';
+import './DomaineCompetenceMobile.css';
 
 const DomaineCompetence = ({nomCompetence})=> {
  return (
