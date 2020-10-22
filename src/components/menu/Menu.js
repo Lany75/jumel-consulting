@@ -15,7 +15,7 @@ const Menu = () => {
         Compétences
       </a>
       <a href="#transition-3" className="div-menu">
-        Expérience
+        Expériences
       </a>
       <a href="#transition-4" className="div-menu">
         Contact
