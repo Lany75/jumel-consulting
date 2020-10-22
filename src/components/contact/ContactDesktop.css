@@ -49,14 +49,4 @@
     margin-top: 5px;
     margin-bottom: 50px;
   }
-
-  .icon-retour {
-    margin: 50px 0px 50px 200px;
-    font-size: 30px;
-  }
-
-  .icon-retour a {
-    text-decoration: none;
-    color: black;
-  }
 }

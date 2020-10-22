@@ -7,6 +7,7 @@ import LogoAxa from "../../images/Logo-Axa.png";
 import LogoSG from "../../images/Logo-SG.jpg";
 import LogoAmundi from "../../images/Logo-Amundi.png";
 import LogoAtos from "../../images/Logo-Atos.png"
+import IconRetour from '../iconRetour/IconRetour';
 
 const Portfolio = () => {
   return(
@@ -58,9 +59,7 @@ const Portfolio = () => {
       </div>
     </div>
 
-    <div className="icon-retour">
-      <a href="#home"><CgArrowUpO /></a>
-    </div>
+    <IconRetour />
   </div>
   )
 }

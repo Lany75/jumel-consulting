@@ -1,6 +1,7 @@
 import { Button, TextField } from '@material-ui/core';
 import React, { useState } from 'react';
 import { CgArrowUpO } from 'react-icons/cg';
+import IconRetour from '../iconRetour/IconRetour';
 import './ContactDesktop.css';
 import './ContactMobile.css';
 
@@ -59,9 +60,7 @@ const Contact = () => {
       <Button variant="contained" disableElevation>Envoyer</Button>
     </form>
     </div>
-    <div className="icon-retour">
-      <a href="#home"><CgArrowUpO /></a>
-    </div>
+    <IconRetour />
   </div>
   )
 }
