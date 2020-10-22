@@ -11,107 +11,64 @@ const Skills = () => {
       <div className="skills">
         <div className="titre-skills">Domaines de compétences</div>
         <div id='domaine-competence'>
-          <div className='icon-skill'><HiShieldCheck />Méthode Agiles</div>
-          <div className='icon-skill'><HiShieldCheck />Architecture</div>
-          <div className='icon-skill'><HiShieldCheck />.NET</div>
-          <div className='icon-skill'><HiShieldCheck />Sybase</div>
-          <div className='icon-skill'><HiShieldCheck />GIT</div>
-          <div className='icon-skill'><HiShieldCheck />SQL</div>
-          <div className='icon-skill'><HiShieldCheck />Base de données</div>
-          <div className='icon-skill'><HiShieldCheck />Oracle</div>
-          <div className='icon-skill'><HiShieldCheck />Visual Studio</div>
-          <div className='icon-skill'><HiShieldCheck />Microsoft SQL Server</div>
-          <div className='icon-skill'><HiShieldCheck />Microsoft Azure</div>
-          <div className='icon-skill'><HiShieldCheck />Azure DevOps</div>
-          <div className='icon-skill'><HiShieldCheck />OData</div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Méthode Agiles</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Architecture</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>.NET</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Sybase</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>GIT</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>SQL</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Base de données</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Oracle</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Visual Studio</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Microsoft SQL Server</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Microsoft Azure</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>Azure DevOps</div>
+          </div>
+          <div className="competence">
+            <div className='icon-skill'><HiShieldCheck /></div>
+            <div>OData</div>
+          </div>
 
         </div>
-       { /*<ul>
-          <li>Méthodes Agiles</li>
-          <li>Architecture</li>
-          <li>.NET</li>
-          <li>Sybase</li>
-          <li>GIT</li>
-          <li>SQL</li>
-          <li>Base de données</li>
-          <li>Oracle</li>
-          <li>Visual Studio</li>
-          <li>Microsoft SQL Server</li>
-          <li>Microsoft Azure</li>
-          <li>Azure DevOps</li>
-          <li>OData</li>
-       </ul>*/}
       </div>
       <div className="skills">
         <div className="titre-skills">Compétences techniques</div>
         <div className="box-competence">
-          <div className="box-essai">
-            <div className="box-essai-titre">C#</div>
-            <div className="pourcentage-100">100%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">WPF</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">REST</div>
-            <div className="pourcentage-100">100%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">WebAPI</div>
-            <div className="pourcentage-100">100%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">MongoDB</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Azure DevOps</div>
-            <div className="pourcentage-100">100%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Datalake</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Winforms</div>
-            <div className="pourcentage-60">60%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">RabbitMQ</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Oracle</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">WCF</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Web Service</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">J2EE</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Java</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Spring</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-          <div className="box-essai">
-            <div className="box-essai-titre">Sybase</div>
-            <div className="pourcentage-80">80%</div>
-          </div>
-        </div>
-
-        {/*<div className="box-competence">
           <div className="box">
             <div id="competence-100">
               <div className="titre-competence">C#</div>
@@ -194,7 +151,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-  */}
+  
     </div>
       <div className="skills">
         <div className="titre-skills">Compétences fonctionnelles</div>

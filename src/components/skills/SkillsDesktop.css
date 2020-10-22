@@ -20,22 +20,36 @@
 
   .skills {
     width: 500px;
-    border: solid;
+    /*border: solid;*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
   }
 
   #domaine-competence {
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
   }
 
-  /*.icon-skill {
-    font-size: 30px;
-  }*/
+  .competence {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .icon-skill {
+    font-size: 20px;
+    margin-right: 10px;
+    /*color: rgb(60, 106, 235);*/
+  }
 
   .titre-skills {
     font-size: 30px;
+    margin-bottom: 20px;
   }
 
   .box-competence {
@@ -47,76 +61,22 @@
     background-color: rgb(235, 231, 231);
   }
 
-  .box-essai {
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    height: 30px;
-    background-color: rgb(235, 231, 231);
-    color: white;
-    margin: 10px 0px 10px 0px;
-  }
-
-  .box-essai-titre {
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    width: 110px;
-    height: 100%;
-    background-color: rgb(70, 68, 68);
-    background-color: rgb(60, 106, 235);
-  }
-
-  .pourcentage-100 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 20px;
-    width: 250px;
-    height: 100%;
-    background-color: rgb(143, 137, 137);
-    background-color: rgb(119, 151, 236);
-  }
-  .pourcentage-80 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 20px;
-    width: 170px;
-    height: 100%;
-    background-color: rgb(143, 137, 137);
-    background-color: rgb(119, 151, 236);
-  }
-  .pourcentage-60 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 20px;
-    width: 90px;
-    height: 100%;
-    background-color: rgb(143, 137, 137);
-    background-color: rgb(119, 151, 236);
-  }
-
   #competence-100 {
     width: 100%;
     height: 30px;
-    /*background-color: rgb(139, 109, 221);*/
-    background-color: rgb(143, 137, 137);
+    background-color: rgb(119, 151, 236);
     margin: 10px 0px 10px 0px;
   }
   #competence-80 {
     width: 80%;
     height: 30px;
-    /*background-color: rgb(139, 109, 221);*/
-    background-color: rgb(143, 137, 137);
+    background-color: rgb(119, 151, 236);
     margin: 10px 0px 10px 0px;
   }
   #competence-60 {
     width: 60%;
     height: 30px;
-    /*background-color: rgb(139, 109, 221);*/
-    background-color: rgb(143, 137, 137);
+    background-color: rgb(119, 151, 236);
     margin: 10px 0px 10px 0px;
   }
 
@@ -126,9 +86,9 @@
     padding-left: 20px;
     width: 150px;
     height: 100%;
-    /*background-color: rgb(89, 52, 189);*/
-    background-color: rgb(70, 68, 68);
+    background-color: rgb(60, 106, 235);
     color: white;
+    font-size: 16px;
   }
 
   .icon-retour {
