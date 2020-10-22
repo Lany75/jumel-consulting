@@ -1,6 +1,7 @@
 import React from 'react';
 import { CgArrowUpO } from 'react-icons/cg';
-import './IconRetour.css';
+import './IconRetourDesktop.css';
+import './IconRetourMobile.css';
 
 const IconRetour =()=>{
   return (
