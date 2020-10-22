@@ -1,6 +1,5 @@
 import { Button, TextField } from '@material-ui/core';
 import React, { useState } from 'react';
-import { CgArrowUpO } from 'react-icons/cg';
 import IconRetour from '../iconRetour/IconRetour';
 import './ContactDesktop.css';
 import './ContactMobile.css';

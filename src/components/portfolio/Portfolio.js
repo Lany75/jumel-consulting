@@ -1,5 +1,4 @@
 import React from 'react';
-import { CgArrowUpO } from 'react-icons/cg';
 import './PortfolioDesktop.css';
 import './PortfolioMobile.css';
 import logoEngie from "../../images/Logo-Engie.jpg";

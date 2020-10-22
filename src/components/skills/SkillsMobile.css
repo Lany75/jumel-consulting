@@ -6,4 +6,15 @@
   #text-skills {
     height: 70%;
   }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titre-skills {
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+  }
 }
