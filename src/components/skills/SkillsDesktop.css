@@ -1,6 +1,6 @@
 @media screen and (min-width: 769px) {
   #skills {
-    height: 650px;
+    height: auto;
   }
 
   #titre-skills {
@@ -12,13 +12,32 @@
   }
 
   #text-skills {
-    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 75px;
   }
 
-  .icon-retour {
-    margin-left: 200px;
+  .skills {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #domaine-competence {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .titre-skills {
     font-size: 30px;
-    text-decoration: none;
-    color: black;
+    margin-bottom: 20px;
+  }
+
+  #competence-tech,
+  #competence-fonct {
+    width: 400px;
   }
 }

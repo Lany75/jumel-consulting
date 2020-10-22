@@ -1,5 +1,5 @@
 import React from "react";
-import { CgArrowUpO } from "react-icons/cg";
+import IconRetour from "../iconRetour/IconRetour";
 
 import "./AboutDesktop.css";
 import "./AboutMobile.css";
@@ -27,9 +27,7 @@ const About = () => {
         </div>
       </div>
       
-      <div className="icon-retour">
-        <a href="#home"><CgArrowUpO /></a>
-      </div>
+      <IconRetour />
     </div>
   );
 };

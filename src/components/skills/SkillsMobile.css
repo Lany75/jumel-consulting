@@ -1,17 +1,20 @@
 @media screen and (max-width: 769px) {
   #skills {
-    height: 250px;
-  }
-
-  #titre-skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 10%;
-    font-size: 20px;
+    height: auto;
   }
 
   #text-skills {
     height: 70%;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titre-skills {
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
   }
 }
