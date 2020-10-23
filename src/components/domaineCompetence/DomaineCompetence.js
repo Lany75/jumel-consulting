@@ -7,7 +7,7 @@ const DomaineCompetence = ({nomCompetence})=> {
  return (
   <div className="competence">
     <div className='icon-skill'><HiShieldCheck /></div>
-    <div>{nomCompetence}</div>
+    <div className='nom-competence'>{nomCompetence}</div>
   </div>
  )
 }
