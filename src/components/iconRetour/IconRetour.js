@@ -6,7 +6,7 @@ import './IconRetourMobile.css';
 const IconRetour =()=>{
   return (
     <div className="icon-retour">
-      <a href="#home" ><CgArrowUpO /></a>
+      <a href="#home"><CgArrowUpO /></a>
     </div>
   )
 }
