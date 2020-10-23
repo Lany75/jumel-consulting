@@ -15,7 +15,7 @@ describe ('composant <Header />', ()=> {
     expect(divHeader).to.have.length(1);
   })
 
-  it('the div whitch id is "header" contains a div whitch id is "menu-mobile-phone-mail" and a Menu component', ()=>{
+  it('The div whitch id is "header" contains a div whitch id is "menu-mobile-phone-mail" and a Menu component', ()=>{
     const divHeader = header.find("#header");
     const divMenuMobilePhoneMail = divHeader.find("#menu-mobile-phone-mail");
     expect (divMenuMobilePhoneMail).to.have.length(1);
@@ -32,7 +32,7 @@ describe ('composant <Header />', ()=> {
 
   it('The div whitch id is "menu-mobile" contains a CgMenuRound icon', ()=>{
     const divMenuMobile = header.find("#menu-mobile");
-    expect(divMenuMobile).to.contain(<CgMenuRound />)
+    expect(divMenuMobile).to.contain(<CgMenuRound />);
   })
 
   it('The div whitch id is "phone-mail" contains 2 div whitch id are "phone" and "mail"', ()=>{
