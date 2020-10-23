@@ -18,6 +18,7 @@ describe('composant <Menu />', ()=>{
     expect(aTag).to.have.length(5);
     aTag.map(at => {
       expect(at.props().className).to.equal('div-menu');
+      return true;
     })
   })
 })

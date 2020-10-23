@@ -33,6 +33,7 @@ describe('composant <About />', ()=>{
       expect(divImageAbout).to.have.length(1);
       const divTextExpertise = d.find(".text-expertise");
       expect(divTextExpertise).to.have.length(1);
+      return true;
     })
   })
 
