@@ -7,7 +7,7 @@ import Menu from '../components/menu/Menu';
 describe('composant <Menu />', ()=>{
   const menu = shallow(<Menu />);
 
-  it('Menu component contains a div whitch id is "menu-desktop', ()=>{
+  it('Menu component contains a div whitch id is "menu-desktop"', ()=>{
     const divMenuDesktop = menu.find('#menu-desktop');
     expect(divMenuDesktop).to.have.length(1);
   })
