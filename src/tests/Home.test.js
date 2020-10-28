@@ -15,7 +15,6 @@ describe('composant <Home />', ()=>{
     const divHome = home.find("#home");
     const divNomEntreprise = divHome.find("#nom-entreprise");
     expect (divNomEntreprise).to.have.length(1);
-
   })
 
   it('The div whitch id is "nom-entreprise" contains the name of the company "JUMEL CONSULTING"', ()=>{
