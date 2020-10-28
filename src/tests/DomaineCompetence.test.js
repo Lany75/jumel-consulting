@@ -18,12 +18,15 @@ describe('composant <DomaineCompetence />', ()=>{
     const divNomCompetence = divCompetence.find('.nom-competence');
     expect(divIconSkill).to.have.length(1);
     expect(divNomCompetence).to.have.length(1);
-
-    console.log(divNomCompetence.props());
   })
 
-  it('The div whitch className is "icon-skill" contain a HiShieldCheck icon', ()=>{
+  it('The div whitch className is "icon-skill" contains a HiShieldCheck icon', ()=>{
     const divIconSkill = domaineCompetence.find('.icon-skill');
     expect(divIconSkill).to.contain(<HiShieldCheck />)
+  })
+
+  it('The div whitch className is "nom-competence" contains the name of the competence', ()=>{
+    const divNomCompetence = domaineCompetence.find('.nom-competence');
+    expect(divNomCompetence.text()).to.be.equal("name");
   })
 })
