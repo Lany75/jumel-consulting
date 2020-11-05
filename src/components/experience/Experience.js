@@ -1,4 +1,6 @@
 import React from 'react';
+import './ExperienceDesktop.css';
+import './ExperienceMobile.css';
 
 const Experience = ({idExperience, logoEntreprise, altImage, nomEntreprise, titrePoste}) => {
   return (
