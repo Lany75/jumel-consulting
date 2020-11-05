@@ -1,4 +1,5 @@
 import React from 'react';
+import MentionsLegales from '../mentionsLegales/MentionsLegales';
 import './FooterDesktop.css';
 import './FooterMobile.css';
 
@@ -16,9 +17,7 @@ const Footer = () => {
           <a href="#transition-3" className="rappel-menu">Expériences</a>
         </div>
       </div>
-      <div id='mention-legales'>
-        Mentions Légales
-      </div>
+      <MentionsLegales />
     </div>
   )
 }

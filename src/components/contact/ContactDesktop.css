@@ -17,36 +17,4 @@
     align-items: center;
     margin: 50px;
   }
-
-  /*#formulaire-contact {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #nom-mail-contact {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 5px;
-  }
-
-  .nom-contact {
-    width: 290px;
-    margin-right: 10px;
-  }
-  .mail-contact {
-    width: 290px;
-    margin-left: 10px;
-  }
-
-  .sujet-contact {
-    width: 600px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .message-contact {
-    width: 600px;
-    margin-top: 5px;
-    margin-bottom: 50px;
-  }*/
 }
