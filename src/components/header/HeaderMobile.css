@@ -17,8 +17,18 @@
   }
 
   #menu-mobile {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+  }
+
+  #icon-menu-closed {
     font-size: 30px;
+  }
+  #icon-menu-opened {
+    font-size: 20px;
   }
 
   #phone-mail {
@@ -40,5 +50,27 @@
 
   .text {
     font-size: 15px;
+  }
+
+  #my-phone-menu {
+    margin-left: 5px;
+    width: 110px;
+    height: 110px;
+    background-color: whitesmoke;
+    /*display: flex;*/
+    flex-direction: column;
+    display: none;
+  }
+
+  .visible {
+    display: block;
+  }
+  .invisible {
+    display: none;
+  }
+
+  .div-menu {
+    text-decoration: none;
+    color: black;
   }
 }

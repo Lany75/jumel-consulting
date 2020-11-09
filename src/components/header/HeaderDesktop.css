@@ -45,4 +45,15 @@
   .text {
     font-size: 20px;
   }
+
+  #my-phone-menu {
+    display: none;
+  }
+
+  .visible {
+    display: block;
+  }
+  .invisible {
+    display: none;
+  }
 }
