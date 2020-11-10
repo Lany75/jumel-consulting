@@ -2,7 +2,7 @@
   #home {
     color: white;
     height: 350px;
-    font-size: 80px;
+    font-size: 60px;
     padding-top: 150px;
   }
 
@@ -15,7 +15,7 @@
 
   @keyframes move-vertically {
     from {
-      margin-top: 2%;
+      margin-top: 5%;
     }
     to {
       margin-top: 350px;
@@ -23,7 +23,7 @@
   }
   @keyframes move-orizontally {
     from {
-      margin-left: 5%;
+      margin-left: 10%;
     }
     to {
       margin-left: 55%;
