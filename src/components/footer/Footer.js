@@ -2,6 +2,7 @@ import React from 'react';
 import MentionsLegales from '../mentionsLegales/MentionsLegales';
 import './FooterDesktop.css';
 import './FooterMobile.css';
+import './FooterTablet.css';
 
 const Footer = () => {
   return (

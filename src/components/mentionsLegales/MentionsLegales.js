@@ -1,6 +1,7 @@
 import React from 'react';
 import './MentionsLegalesDesktop.css';
 import './MentionsLegalesMobile.css';
+import './MentionsLegalesTablet.css';
 
 const MentionsLegales = ()=>{
   const openModal = ()=> {

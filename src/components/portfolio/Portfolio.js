@@ -1,6 +1,7 @@
 import React from 'react';
 import './PortfolioDesktop.css';
 import './PortfolioMobile.css';
+import './PortfolioTablet.css';
 import logoEngie from "../../images/Logo-Engie.jpg";
 import LogoAxa from "../../images/Logo-Axa.png";
 import LogoSG from "../../images/Logo-SG.jpg";

@@ -2,6 +2,7 @@ import React from "react";
 
 import "./HomeDesktop.css";
 import "./HomeMobile.css";
+import "./HomeTablet.css";
 
 const Home = () => {
   return (
