@@ -1,6 +1,7 @@
 import React from "react";
 import "./MenuDesktop.css";
 import "./MenuMobile.css";
+import "./MenuTablet.css";
 
 const Menu = () => {
   return (

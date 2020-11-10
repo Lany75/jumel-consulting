@@ -3,6 +3,7 @@ import IconRetour from "../iconRetour/IconRetour";
 
 import "./AboutDesktop.css";
 import "./AboutMobile.css";
+import "./AboutTablet.css";
 
 const About = () => {
   return (

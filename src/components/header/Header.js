@@ -8,7 +8,7 @@ import Menu from "../menu/Menu";
 
 import "./HeaderDesktop.css";
 import "./HeaderMobile.css";
-
+import "./HeaderTablet.css";
 
 const Header = () => {
   const openMenu =()=>{
@@ -32,7 +32,6 @@ const Header = () => {
     <div id='header'>
       <div id='menu-mobile-phone-mail'>
         <div id='menu-mobile' onClick={openMenu}>
-          {/*<div><CgMenuRound /></div>*/}
           <div id='icon-menu-closed' className='visible'><CgMenuRound /></div>
           <div id='icon-menu-opened' className='invisible'><ImCross /></div>
         </div>
