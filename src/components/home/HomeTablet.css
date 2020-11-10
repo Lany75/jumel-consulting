@@ -1,8 +1,8 @@
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   #home {
     color: white;
-    height: 350px;
-    font-size: 60px;
+    height: 250px;
+    font-size: 40px;
     padding-top: 150px;
   }
 
@@ -18,7 +18,7 @@
       margin-top: 5%;
     }
     to {
-      margin-top: 350px;
+      margin-top: 250px;
     }
   }
   @keyframes move-orizontally {

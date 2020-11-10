@@ -1,6 +1,7 @@
 import React from 'react';
 import './CompetenceTechFonctDesktop.css';
 import './CompetenceTechFonctMobile.css';
+import './CompetenceTechFonctTablet.css';
 
 const CompetenceTechFonct = ({nomCompetence, pourcentage})=>{
   return (

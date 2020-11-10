@@ -4,6 +4,7 @@ import DomaineCompetence from '../domaineCompetence/DomaineCompetence';
 import IconRetour from '../iconRetour/IconRetour';
 import './SkillsDesktop.css';
 import './SkillsMobile.css';
+import './SkillsTablet.css';
 
 const Skills = () => {
   return (

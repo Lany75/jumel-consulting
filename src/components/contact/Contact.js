@@ -2,6 +2,7 @@ import React from 'react';
 import IconRetour from '../iconRetour/IconRetour';
 import './ContactDesktop.css';
 import './ContactMobile.css';
+import './ContactTablet.css';
 
 const Contact = () => {
   return (

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   .competence {
     display: flex;
     flex-direction: row;
@@ -8,7 +8,7 @@
   }
 
   .icon-skill {
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 10px;
   }
 }
