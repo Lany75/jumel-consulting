@@ -14,9 +14,10 @@ const Portfolio = () => {
   return(
     
   <div id="portfolio">
-      <div id="text-portfolio">
-      <div className="experiences">
+    <div id="text-portfolio">
+      <div id="experiences">
           <Experience 
+            className="experience"
             idExperience="experience-1" 
             logoEntreprise={logoEngie} 
             altImage="Engie" 
@@ -24,6 +25,7 @@ const Portfolio = () => {
             titrePoste="Technical Lead"
           />
           <Experience 
+            className="experience"
             idExperience="experience-2" 
             logoEntreprise={LogoAxa} 
             altImage="Axa" 
@@ -31,6 +33,7 @@ const Portfolio = () => {
             titrePoste="Senior Software Engineer Team Lead"
           />
           <Experience 
+            className="experience"
             idExperience="experience-3" 
             logoEntreprise={LogoSG} 
             altImage="Société Générale" 
@@ -38,6 +41,7 @@ const Portfolio = () => {
             titrePoste="Technical Lead"
           />
           <Experience 
+            className="experience"
             idExperience="experience-4" 
             logoEntreprise={LogoAmundi} 
             altImage="Amundi" 
@@ -45,6 +49,7 @@ const Portfolio = () => {
             titrePoste="Senior J2Ee Developer"
           />
           <Experience 
+            className="experience"
             idExperience="experience-5" 
             logoEntreprise={LogoAtos} 
             altImage="Atos" 

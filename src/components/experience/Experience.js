@@ -8,7 +8,7 @@ const Experience = ({idExperience, logoEntreprise, altImage, nomEntreprise, titr
     <div id={idExperience}>
       <div className="entreprise-experience">
         <div><img className="logo-entreprise" src={logoEntreprise} alt={altImage} /></div>
-        <div>{nomEntreprise}</div>
+        <div className="nom-entreprise">{nomEntreprise}</div>
       </div>
       <div className="poste-experience">{titrePoste}</div>
     </div>

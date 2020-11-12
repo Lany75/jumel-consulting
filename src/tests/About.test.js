@@ -8,7 +8,7 @@ import IconRetour from '../components/iconRetour/IconRetour';
 describe('composant <About />', ()=>{
   const about = shallow(<About />);
 
-  it('About component contains a div whitch id is "about', ()=>{
+  it('About component contains a div whitch id is "about"', ()=>{
     const divAbout = about.find('#about');
     expect(divAbout).to.have.length(1);
   })
@@ -26,7 +26,7 @@ describe('composant <About />', ()=>{
     expect(divs).to.have.length(3);
   })
 
-  it('The divs whitch className is "div-expertise" contain 2 divs whitch id are "image-about" and "text-expertise"', ()=>{
+  it('The divs whitch className is "div-expertise" contain 2 divs whitch className are "image-about" and "text-expertise"', ()=>{
     const divExpertise = about.find(".div-expertise");
     divExpertise.map(d=>{
       const divImageAbout = d.find(".image-about");

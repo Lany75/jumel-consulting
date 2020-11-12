@@ -73,4 +73,28 @@
     text-decoration: none;
     color: black;
   }
+
+  @keyframes openMenuMobile {
+    0% {
+      height: 0px;
+    }
+    100% {
+      height: 110px;
+    }
+  }
+  @keyframes getTextMenuMobile {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .openMenu {
+    animation: openMenuMobile 2s;
+  }
+  .getTextMenu {
+    animation: getTextMenuMobile 2s;
+  }
 }

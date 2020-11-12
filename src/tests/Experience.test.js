@@ -33,10 +33,12 @@ describe('composant <Experience />', ()=>{
     expect(divPosteExp.text()).to.be.equal("Technical Lead");
   })
 
-  it('The div whitch className is "entreprise-experience" contains an img-tag', ()=>{
+  it('The div whitch className is "entreprise-experience" contains an img-tag and a div whitch className is "nom-entreprise"', ()=>{
     const divEntrepriseExp = experience.find(".entreprise-experience");
     const imgTag = divEntrepriseExp.find("img");
     expect(imgTag).to.have.length(1);
+    const divNomEntreprise = divEntrepriseExp.find(".nom-entreprise");
+    expect(divNomEntreprise).to.have.length(1);
   })
 
   it('The img-tag have the className "logo-entreprise", the src propertie "logoEngie" and the alt propertie "Engie"', ()=>{
@@ -44,5 +46,10 @@ describe('composant <Experience />', ()=>{
     expect(imgTag.props().className).to.be.equal("logo-entreprise");
     expect(imgTag.props().src).to.be.equal(logoEngie);
     expect(imgTag.props().alt).to.be.equal("Engie");
+  })
+
+  it('The div whitch className is "nom-entreprise" contains the name of the company "ENGIE Global Markets"', ()=>{
+    const divNomEntreprise = experience.find(".nom-entreprise");
+    expect(divNomEntreprise.text()).to.be.equal("ENGIE Global Markets");
   })
 })

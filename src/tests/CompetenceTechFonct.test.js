@@ -19,7 +19,12 @@ describe('composant <CompetenceTechFonct />', () => {
 
   it('The div whitch id is "pourc-75" contains a div whitch className is "titre-competence"', ()=>{
     const divPourc75 = competenceTechFonct.find('#pourc-75'); 
-    const divTitreCompetence = divPourc75.find('.titre-competence')
+    const divTitreCompetence = divPourc75.find('.titre-competence');
     expect(divTitreCompetence).to.have.length(1); 
+  })
+
+  it('The div whitch id is "titre-competence" contains the name of the competence', ()=>{
+    const divTitreCompetence = competenceTechFonct.find('.titre-competence');
+    expect(divTitreCompetence.text()).to.be.equal("name");
   })
 })
