@@ -12,7 +12,6 @@ import "./HeaderTablet.css";
 
 const Header = () => {
   const openMenu =()=>{
-    console.log('menu ouvert')
     const iconMenuClosed= document.getElementById('icon-menu-closed');
     const iconMenuOpened= document.getElementById('icon-menu-opened');
     const phoneMenu = document.getElementById("my-phone-menu");
@@ -21,6 +20,7 @@ const Header = () => {
       iconMenuClosed.className='invisible';
       iconMenuOpened.className='visible';
       phoneMenu.style.display='flex';
+      //phoneMenu.className="openMenu";
     } else {
       iconMenuClosed.className='visible';
       iconMenuOpened.className='invisible';

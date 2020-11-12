@@ -9,7 +9,7 @@
     margin-top: 20px;
   }
 
-  .experiences {
+  #experiences {
     display: flex;
     flex-direction: column;
     align-items: center;
