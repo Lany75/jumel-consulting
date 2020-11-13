@@ -16,7 +16,7 @@ const MentionsLegales = ()=>{
 
   return (
     <div id='mentions-legales'>
-      <div onClick={openModal}>
+      <div id='titre-ml' onClick={openModal}>
         Mentions Legales
       </div>
 
@@ -25,7 +25,7 @@ const MentionsLegales = ()=>{
           <div className="close" onClick={closeModal}>&times;</div>
           <div id='text-ml'>
             <div id='titre-mentions-legales'>MENTIONS LEGALES</div>
-            <div>
+            <div id='immatriculation'>
               <div className='titre'>IMMATRICULATION</div>
               <div className='texte'>
                 <div>JUMEL CONSULTING est une société par action simplifiée à associé unique au capital social de 3000€. 
@@ -34,14 +34,14 @@ const MentionsLegales = ()=>{
                 <div>Tel : 06.08.97.37.44 -- Mail : julien.rivat@jumel-consulting.com</div>
               </div>
             </div>
-            <div> 
+            <div id='realisation'> 
               <div className='titre'>REALISATION DU SITE</div>
               <div className='texte'>
                 <div>Conceptrice et développeuse : Mélanie PARRY (mlanie.parry@gmail.com)</div>
                 <div>Hébergeur : OVH (2 rue Kellerman 59100 Roubaix)</div>
               </div>
             </div>
-            <div>
+            <div id='confidentialite'>
             <div className='titre'>POLITIQUE DE CONFIDENTIALITE</div>
             <div className='texte'>
               <div>L'entreprise JUMEL CONSULTING s'engage à ce que la collecte et le traitement de vos données soient conformes au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.</div>
