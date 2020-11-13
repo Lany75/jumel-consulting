@@ -9,7 +9,7 @@
     margin-top: 75px;
   }
 
-  .experiences {
+  #experiences {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
