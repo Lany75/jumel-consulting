@@ -12,7 +12,7 @@ const Skills = () => {
     <div id="text-skills">
       <div className="skills">
         <div className="titre-skills">Domaines de compétences</div>
-        <div id='domaine-competence'>
+        <div className="compet" id='domaine-competence'>
           <DomaineCompetence nomCompetence="Méthode Agiles" />
           <DomaineCompetence nomCompetence="Architecture" />
           <DomaineCompetence nomCompetence=".NET" />
@@ -31,7 +31,7 @@ const Skills = () => {
       </div>
       <div className="skills">
         <div className="titre-skills">Compétences techniques</div>
-        <div id="competence-tech">
+        <div className="compet" id="competence-tech">
           <CompetenceTechFonct nomCompetence="C#" pourcentage="competence-100" />
           <CompetenceTechFonct nomCompetence="WPF" pourcentage="competence-80" />
           <CompetenceTechFonct nomCompetence="REST" pourcentage="competence-100" />
@@ -53,7 +53,7 @@ const Skills = () => {
     </div>
       <div className="skills">
         <div className="titre-skills">Compétences fonctionnelles</div>
-        <div id="competence-fonct">
+        <div className="compet" id="competence-fonct">
         <CompetenceTechFonct nomCompetence="VaR" pourcentage="competence-80" />
         <CompetenceTechFonct nomCompetence="PnL" pourcentage="competence-80" />
         <CompetenceTechFonct nomCompetence="Risk Analysis" pourcentage="competence-80" />

@@ -17,7 +17,7 @@ describe('composant <About />', ()=>{
     const divAbout = about.find('#about');
     const divTextAbout = divAbout.find("#text-about");
     expect (divTextAbout).to.have.length(1);
-    expect(divAbout).to.contain(<IconRetour />)
+    expect(divAbout).to.contain(<IconRetour />);
   })
 
   it('The div whitch id is "text-about" contains 3 div whitch className is "div-expertise"', ()=>{
