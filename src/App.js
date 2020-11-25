@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./AppDesktop.css";
 import "./AppMobile.css";
 import "./AppTablet.css";
@@ -12,21 +13,21 @@ import Skills from "./components/skills/Skills";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div id="home-transition">
-        <Home />
-        <div id="transition-1" className='transition'></div>
+      <div className="App">
+        <Header />
+        <div id="home-transition">
+          <Home />
+          <div id="transition-1" className='transition'></div>
+        </div>
+        <About />
+        <div id="transition-2" className='transition'></div>
+        <Skills />
+        <div id="transition-3" className='transition'></div>
+        <Portfolio />
+        <div id="transition-4" className='transition'></div>
+        <Contact />
+        <Footer />
       </div>
-      <About />
-      <div id="transition-2" className='transition'></div>
-      <Skills />
-      <div id="transition-3" className='transition'></div>
-      <Portfolio />
-      <div id="transition-4" className='transition'></div>
-      <Contact />
-      <Footer />
-    </div>
   );
 }
 

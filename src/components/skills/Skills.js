@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import CompetenceTechFonct from '../competenceTechFonct/CompetenceTechFonct';
 import DomaineCompetence from '../domaineCompetence/DomaineCompetence';
 import IconRetour from '../iconRetour/IconRetour';
@@ -7,65 +8,66 @@ import './SkillsMobile.css';
 import './SkillsTablet.css';
 
 const Skills = () => {
+  const [t] = useTranslation('translate');
   return (
   <div id="skills">
     <div id="text-skills">
       <div className="skills">
-        <div className="titre-skills">Domaines de compétences</div>
+        <div className="titre-skills">{t('skills.skill1.titre', {framework:'React'})}</div>
         <div className="compet" id='domaine-competence'>
-          <DomaineCompetence nomCompetence="Méthode Agiles" />
-          <DomaineCompetence nomCompetence="Architecture" />
-          <DomaineCompetence nomCompetence=".NET" />
-          <DomaineCompetence nomCompetence="Sybase" />
-          <DomaineCompetence nomCompetence="GIT" />
-          <DomaineCompetence nomCompetence="SQL" />
-          <DomaineCompetence nomCompetence="Base de données" />
-          <DomaineCompetence nomCompetence="Oracle" />
-          <DomaineCompetence nomCompetence="Visual Studio" />
-          <DomaineCompetence nomCompetence="Microsoft SQL Server" />
-          <DomaineCompetence nomCompetence="Microsoft Azure" />
-          <DomaineCompetence nomCompetence="Azure DevOps" />
-          <DomaineCompetence nomCompetence="OData" />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence1', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence2', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence3', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence4', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence5', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence6', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence7', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence8', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence9', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence10', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence11', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence12', {framework:'React'})} />
+          <DomaineCompetence nomCompetence={t('skills.skill1.competence13', {framework:'React'})} />
 
         </div>
       </div>
       <div className="skills">
-        <div className="titre-skills">Compétences techniques</div>
+        <div className="titre-skills">{t('skills.skill2.titre', {framework:'React'})}</div>
         <div className="compet" id="competence-tech">
-          <CompetenceTechFonct nomCompetence="C#" pourcentage="competence-100" />
-          <CompetenceTechFonct nomCompetence="WPF" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="REST" pourcentage="competence-100" />
-          <CompetenceTechFonct nomCompetence="WebAPI" pourcentage="competence-100" />
-          <CompetenceTechFonct nomCompetence="MongoDB" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="Azure DevOps" pourcentage="competence-100" />
-          <CompetenceTechFonct nomCompetence="Datalake" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="Winforms" pourcentage="competence-60" />
-          <CompetenceTechFonct nomCompetence="RabbitMQ" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="Oracle" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="WCF" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="Web Service" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="J2EE" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="Java" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="Spring" pourcentage="competence-80" />
-          <CompetenceTechFonct nomCompetence="Sybase" pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence1', {framework:'React'})} pourcentage="competence-100" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence2', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence3', {framework:'React'})} pourcentage="competence-100" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence4', {framework:'React'})} pourcentage="competence-100" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence5', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence6', {framework:'React'})} pourcentage="competence-100" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence7', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence8', {framework:'React'})} pourcentage="competence-60" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence9', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence10', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence11', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence12', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence13', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence14', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence15', {framework:'React'})} pourcentage="competence-80" />
+          <CompetenceTechFonct nomCompetence={t('skills.skill2.competence16', {framework:'React'})} pourcentage="competence-80" />
         </div>
   
     </div>
       <div className="skills">
-        <div className="titre-skills">Compétences fonctionnelles</div>
+        <div className="titre-skills">{t('skills.skill3.titre', {framework:'React'})}</div>
         <div className="compet" id="competence-fonct">
-        <CompetenceTechFonct nomCompetence="VaR" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="PnL" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="Risk Analysis" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="Assurance" pourcentage="competence-60" />
-        <CompetenceTechFonct nomCompetence="Asset Management" pourcentage="competence-60" />
-        <CompetenceTechFonct nomCompetence="Risque de crédit" pourcentage="competence-60" />
-        <CompetenceTechFonct nomCompetence="ISR" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="Option de change" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="Pricing intéractif" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="Deal Lifecycle" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="Produits exotiques" pourcentage="competence-80" />
-        <CompetenceTechFonct nomCompetence="Produits structurés" pourcentage="competence-60" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence1', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence2', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence3', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence4', {framework:'React'})} pourcentage="competence-60" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence5', {framework:'React'})} pourcentage="competence-60" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence6', {framework:'React'})} pourcentage="competence-60" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence7', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence8', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence9', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence10', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence11', {framework:'React'})} pourcentage="competence-80" />
+        <CompetenceTechFonct nomCompetence={t('skills.skill3.competence12', {framework:'React'})} pourcentage="competence-60" />
         </div>
       </div>
     </div>
