@@ -97,4 +97,13 @@
   .getTextMenu {
     animation: getTextMenuMobile 2s;
   }
+
+  #language {
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 5px;
+    font-size: 12px;
+  }
 }

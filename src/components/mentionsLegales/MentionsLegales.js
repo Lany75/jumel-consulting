@@ -1,9 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './MentionsLegalesDesktop.css';
 import './MentionsLegalesMobile.css';
 import './MentionsLegalesTablet.css';
 
 const MentionsLegales = ()=>{
+  const [t] = useTranslation('translate');
+
   const openModal = ()=> {
     let modal = document.getElementById('my-modal');  
     modal.style.display='block';
@@ -17,41 +20,39 @@ const MentionsLegales = ()=>{
   return (
     <div id='mentions-legales'>
       <div id='titre-ml' onClick={openModal}>
-        Mentions Legales
+      {t('footer.titre', {framework:'React'})}
       </div>
 
       <div id="my-modal" className="modal">
         <div className="modal-content">
           <div className="close" onClick={closeModal}>&times;</div>
           <div id='text-ml'>
-            <div id='titre-mentions-legales'>MENTIONS LEGALES</div>
+            <div id='titre-mentions-legales'>{t('mentionsLegales.titre', {framework:'React'})}</div>
             <div id='immatriculation'>
-              <div className='titre'>IMMATRICULATION</div>
+              <div className='titre'>{t('mentionsLegales.immatriculation.titre', {framework:'React'})}</div>
               <div className='texte'>
-                <div>JUMEL CONSULTING est une société par action simplifiée à associé unique au capital social de 3000€. 
-                L'entreprise est identifiée au Registre du Commerce et des Sociétés (RCS) de Paris sous le numéro 805 077 617. 
-                Son siège social est situé 91 bld Soult 75012 Paris.</div>
-                <div>Tel : 06.08.97.37.44 -- Mail : julien.rivat@jumel-consulting.com</div>
+                <div>{t('mentionsLegales.immatriculation.texte.zone1', {framework:'React'})}</div>
+                <div>{t('mentionsLegales.immatriculation.texte.zone2', {framework:'React'})}</div>
               </div>
             </div>
             <div id='realisation'> 
-              <div className='titre'>REALISATION DU SITE</div>
+              <div className='titre'>{t('mentionsLegales.realisation.titre', {framework:'React'})}</div>
               <div className='texte'>
-                <div>Conceptrice et développeuse : Mélanie PARRY (mlanie.parry@gmail.com)</div>
-                <div>Hébergeur : OVH (2 rue Kellerman 59100 Roubaix)</div>
+                <div>{t('mentionsLegales.realisation.texte.zone1', {framework:'React'})}</div>
+                <div>{t('mentionsLegales.realisation.texte.zone2', {framework:'React'})}</div>
               </div>
             </div>
             <div id='confidentialite'>
-            <div className='titre'>POLITIQUE DE CONFIDENTIALITE</div>
+            <div className='titre'>{t('mentionsLegales.confidentialite.titre', {framework:'React'})}</div>
             <div className='texte'>
-              <div>L'entreprise JUMEL CONSULTING s'engage à ce que la collecte et le traitement de vos données soient conformes au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.</div>
-              <div>Les données personnelles recueillis ont pour finalité le traitement de votre demande d'information formulée sur le site.</div>
-              <div>En application de la loi Informatique et Libertés du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent.</div>
+              <div>{t('mentionsLegales.confidentialite.texte.zone1', {framework:'React'})}</div>
+              <div>{t('mentionsLegales.confidentialite.texte.zone2', {framework:'React'})}</div>
+              <div>{t('mentionsLegales.confidentialite.texte.zone3', {framework:'React'})}</div>
               <div>
-                <div>Vous pouvez exercer ce droit de plusieurs façon :</div>
+                <div>{t('mentionsLegales.confidentialite.texte.zone4.div', {framework:'React'})}</div>
                 <ul>
-                  <li>En envoyant un courriel à julien.rivat@jumel-consulting.com</li>
-                  <li>En envoyant un courrier à Jumel Consulting 91 bld Soult 75012 Paris</li>
+                  <li>{t('mentionsLegales.confidentialite.texte.zone4.ul.li1', {framework:'React'})}</li>
+                  <li>{t('mentionsLegales.confidentialite.texte.zone4.ul.li2', {framework:'React'})}</li>
                 </ul>
               </div>
             </div>

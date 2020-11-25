@@ -9,8 +9,10 @@ import Menu from "../menu/Menu";
 import "./HeaderDesktop.css";
 import "./HeaderMobile.css";
 import "./HeaderTablet.css";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const [t, i18next] = useTranslation('translate');
   const openMenu =()=>{
     const iconMenuClosed= document.getElementById('icon-menu-closed');
     const iconMenuOpened= document.getElementById('icon-menu-opened');
@@ -48,16 +50,22 @@ const Header = () => {
             </div>
             <div className="text">julien.rivat@jumel-consulting.fr</div>
           </div>
+          
         </div>
+        <div id="language">
+            <div onClick={()=> i18next.changeLanguage('fr')}>FR</div>
+            <div>|</div>
+            <div onClick={()=> i18next.changeLanguage('en')}>EN</div>
+          </div>
       </div>
       <Menu />
 
       <div id="my-phone-menu">
-        <a href="#home" className='div-menu'>Accueil</a>
-        <a href="#transition-1" className='div-menu'>Expertise</a>
-        <a href="#transition-2" className='div-menu'>Compétences</a>
-        <a href="#transition-3" className='div-menu'>Expériences</a>
-        <a href="#transition-4" className='div-menu'>Contact</a>
+        <a href="#home" className='div-menu'>{t('menu.accueil', {framework:'React'})}</a>
+        <a href="#transition-1" className='div-menu'>{t('menu.expertise', {framework:'React'})}</a>
+        <a href="#transition-2" className='div-menu'>{t('menu.competence', {framework:'React'})}</a>
+        <a href="#transition-3" className='div-menu'>{t('menu.experiences', {framework:'React'})}</a>
+        <a href="#transition-4" className='div-menu'>{t('menu.contact', {framework:'React'})}</a>
       </div>
     </div>
   );

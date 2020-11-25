@@ -9,8 +9,10 @@ import LogoAmundi from "../../images/Logo-Amundi.png";
 import LogoAtos from "../../images/Logo-Atos.png"
 import IconRetour from '../iconRetour/IconRetour';
 import Experience from '../experience/Experience';
+import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
+  const [t] = useTranslation('translate');
   return(
     
   <div id="portfolio">
@@ -21,40 +23,40 @@ const Portfolio = () => {
             idExperience="experience-1" 
             logoEntreprise={logoEngie} 
             altImage="Engie" 
-            nomEntreprise="ENGIE Global Markets" 
-            titrePoste="Technical Lead"
+            nomEntreprise={t('portfolio.experience1.entreprise', {framework:'React'})} 
+            titrePoste={t('portfolio.experience1.poste', {framework:'React'})}
           />
           <Experience 
             className="experience"
             idExperience="experience-2" 
             logoEntreprise={LogoAxa} 
             altImage="Axa" 
-            nomEntreprise="AXA Life Invest" 
-            titrePoste="Senior Software Engineer Team Lead"
+            nomEntreprise={t('portfolio.experience2.entreprise', {framework:'React'})}
+            titrePoste={t('portfolio.experience2.poste', {framework:'React'})}
           />
           <Experience 
             className="experience"
             idExperience="experience-3" 
             logoEntreprise={LogoSG} 
             altImage="Société Générale" 
-            nomEntreprise="Societe Generale Corporate and Investment Banking" 
-            titrePoste="Technical Lead"
+            nomEntreprise={t('portfolio.experience3.entreprise', {framework:'React'})}
+            titrePoste={t('portfolio.experience3.poste', {framework:'React'})}
           />
           <Experience 
             className="experience"
             idExperience="experience-4" 
             logoEntreprise={LogoAmundi} 
             altImage="Amundi" 
-            nomEntreprise="Amundi" 
-            titrePoste="Senior J2Ee Developer"
+            nomEntreprise={t('portfolio.experience4.entreprise', {framework:'React'})}
+            titrePoste={t('portfolio.experience4.poste', {framework:'React'})}
           />
           <Experience 
             className="experience"
             idExperience="experience-5" 
             logoEntreprise={LogoAtos} 
             altImage="Atos" 
-            nomEntreprise="Atos" 
-            titrePoste="Information Technology Software Engineer"
+            nomEntreprise={t('portfolio.experience5.entreprise', {framework:'React'})} 
+            titrePoste={t('portfolio.experience5.poste', {framework:'React'})}
           />
       </div>
     </div>
