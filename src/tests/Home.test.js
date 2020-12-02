@@ -17,8 +17,8 @@ describe('composant <Home />', ()=>{
     expect (divNomEntreprise).to.have.length(1);
   })
 
-  it('The div whitch id is "nom-entreprise" contains the name of the company "JUMEL CONSULTING"', ()=>{
+  it('The div whitch id is "nom-entreprise" contains the name of the company "home"', ()=>{
     const divNomEntreprise = home.find("#nom-entreprise");
-    expect(divNomEntreprise.text()).to.equal("JUMEL CONSULTING")
+    expect(divNomEntreprise.text()).to.equal("home")
   })
 })

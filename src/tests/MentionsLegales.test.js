@@ -20,9 +20,9 @@ describe('composant <MentionsLegales />', ()=>{
     expect(divMyModal).to.have.length(1);
   })
 
-  it('The div whitch id is "titre-ml" contains text "Mentions Legales"', ()=>{
+  it('The div whitch id is "titre-ml" contains text "footer.titre"', ()=>{
     const divTitreMl = mentionsLegales.find('#titre-ml');
-    expect(divTitreMl.text()).to.equal("Mentions Legales");
+    expect(divTitreMl.text()).to.equal("footer.titre");
   })
 
   it('The div whitch id is "my-modal" constains a div whitch className is "modal-content"', ()=>{
@@ -51,9 +51,9 @@ describe('composant <MentionsLegales />', ()=>{
     expect(divConfidentialite).to.have.length(1);
   })
 
-  it('The div whitch id is "titre-mentions-legales" contains text "MENTIONS LEGALES"', ()=>{
+  it('The div whitch id is "titre-mentions-legales" contains text "mentionsLegales.titre"', ()=>{
     const divTitreMentionsLegales = mentionsLegales.find('#titre-mentions-legales');
-    expect(divTitreMentionsLegales.text()).to.equal('MENTIONS LEGALES');
+    expect(divTitreMentionsLegales.text()).to.equal('mentionsLegales.titre');
   })
 
   it('The div whitch id is "immatriculation" contains 2 divs whitch className are "titre" and "texte"', ()=>{
