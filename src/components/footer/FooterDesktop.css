@@ -10,8 +10,19 @@
     align-items: center;
   }
 
+  #rappel-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+
   .rappel-menu {
     text-decoration: none;
     color: white;
+  }
+
+  .rappel-menu:hover {
+    font-size: 20px;
+    cursor: pointer;
   }
 }
