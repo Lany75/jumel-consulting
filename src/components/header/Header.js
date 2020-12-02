@@ -22,7 +22,6 @@ const Header = () => {
       iconMenuClosed.className='invisible';
       iconMenuOpened.className='visible';
       phoneMenu.style.display='flex';
-      //phoneMenu.className="openMenu";
     } else {
       iconMenuClosed.className='visible';
       iconMenuOpened.className='invisible';
