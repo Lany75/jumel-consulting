@@ -10,17 +10,17 @@
   "expertises": {
     "expert1": {
       "titre": "CONSULTING",
-      "text": "At Jumel, we do consulting, it's too good"
+      "text": "In order to face the new numeric challenges, we support you in your IT transformation project"
     },
     "expert2": {
       "titre1": "BANKING",
       "titre2": "FINANCE",
       "titre3": "INSURANCE",
-      "text": "We have great experience in Banking, Finance and Insurance"
+      "text": "We have developped strong skills in key business domain, that cover a large spectrum from Bank, to Finance and Insurance"
     },
     "expert3": {
       "titre": "CLOUD",
-      "text": "At Jumel, we have our heads in the clouds"
+      "text": "Cloud is durably transforming the IT landscape, our Cloud Architecture skills and specifically in Azure will help you to embrace this new turn"
     }
   },
   "skills": {
