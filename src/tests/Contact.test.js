@@ -21,8 +21,8 @@ describe ('composant <Contact />', ()=>{
     expect(divContact).to.contain(<IconRetour />)
   })
 
-  it('The div whitch id is "titre-contact" contains the title "Contact"', ()=>{
+  it('The div whitch id is "titre-contact" contains the title "contact.titre"', ()=>{
     const divTitreContact = contact.find("#titre-contact");
-    expect(divTitreContact.text()).to.be.equal("Contact");
+    expect(divTitreContact.text()).to.be.equal("contact.titre");
   })
 })
