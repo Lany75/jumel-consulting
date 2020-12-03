@@ -8,7 +8,7 @@
     cursor: pointer;
   }
 
-  .modal {
+  .modal-ml {
     display: none;
     position: fixed;
     z-index: 1;
@@ -20,7 +20,7 @@
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
   }
-  .modal-content {
+  .modal-ml-content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;

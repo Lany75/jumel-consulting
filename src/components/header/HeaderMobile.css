@@ -9,10 +9,6 @@
     left: 0;
   }
 
-  /*#logo {
-    display: none;
-  }*/
-
   #menu-mobile-phone-mail {
     display: flex;
     flex-direction: row;
