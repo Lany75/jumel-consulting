@@ -49,13 +49,13 @@ const Header = () => {
             </div>
             <div className="text">julien.rivat@jumel-consulting.fr</div>
           </div>
-          
         </div>
+
         <div id="language">
-            <div id="div-fr" onClick={()=> i18next.changeLanguage('fr')}>FR</div>
-            <div>|</div>
-            <div id="div-en" onClick={()=> i18next.changeLanguage('en')}>EN</div>
-          </div>
+          <div id="div-fr" onClick={()=> i18next.changeLanguage('fr')}>FR</div>
+          <div>|</div>
+          <div id="div-en" onClick={()=> i18next.changeLanguage('en')}>EN</div>
+        </div>
       </div>
       <Menu />
 

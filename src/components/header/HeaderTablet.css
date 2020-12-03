@@ -12,6 +12,7 @@
   }
 
   #menu-mobile-phone-mail {
+    height: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;

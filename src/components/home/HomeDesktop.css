@@ -1,32 +1,15 @@
 @media screen and (min-width: 1025px) {
   #home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     height: 350px;
     font-size: 60px;
     padding-top: 150px;
   }
 
-  #nom-entreprise {
-    animation-name: move-vertically, move-orizontally;
-    animation-duration: 10s, 20s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
-  @keyframes move-vertically {
-    from {
-      margin-top: 5%;
-    }
-    to {
-      margin-top: 350px;
-    }
-  }
-  @keyframes move-orizontally {
-    from {
-      margin-left: 10%;
-    }
-    to {
-      margin-left: 55%;
-    }
+  #logo-mobile {
+    display: none;
   }
 }

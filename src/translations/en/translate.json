@@ -103,7 +103,8 @@
     "mail": "email"
   },
   "footer": {
-    "titre": "Legal Notice"
+    "mentionsLegales": "Legal Notice",
+    "remerciements": "Thanks"
   },
   "mentionsLegales": {
     "titre": "LEGAL NOTICE",
@@ -135,6 +136,13 @@
           }
         }
       }
+    }
+  },
+  "remerciement": {
+    "titre": "THANKS",
+    "text": {
+      "partie1": "Following the use of the pictures available on",
+      "partie2": ", we want to thank :"
     }
   }
 }
