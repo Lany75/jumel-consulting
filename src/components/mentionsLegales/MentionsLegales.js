@@ -8,23 +8,23 @@ const MentionsLegales = ()=>{
   const [t] = useTranslation('translate');
 
   const openModal = ()=> {
-    let modal = document.getElementById('my-modal');  
+    let modal = document.getElementById('my-modal-ml');  
     modal.style.display='block';
   }
 
   const closeModal = ()=> {
-    let modal = document.getElementById('my-modal');
+    let modal = document.getElementById('my-modal-ml');
     modal.style.display = 'none'
   }
 
   return (
     <div id='mentions-legales'>
       <div id='titre-ml' onClick={openModal}>
-      {t('footer.titre', {framework:'React'})}
+      {t('footer.mentionsLegales', {framework:'React'})}
       </div>
 
-      <div id="my-modal" className="modal">
-        <div className="modal-content">
+      <div id="my-modal-ml" className="modal-ml">
+        <div className="modal-ml-content">
           <div className="close" onClick={closeModal}>&times;</div>
           <div id='text-ml'>
             <div id='titre-mentions-legales'>{t('mentionsLegales.titre', {framework:'React'})}</div>

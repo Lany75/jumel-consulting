@@ -14,4 +14,9 @@
     text-decoration: none;
     color: white;
   }
+
+  #ml-remerciement {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -103,7 +103,8 @@
     "mail": "courriel"
   },
   "footer": {
-    "titre": "Mentions Legales"
+    "mentionsLegales": "Mentions Legales",
+    "remerciements": "Remerciements"
   },
   "mentionsLegales": {
     "titre": "MENTIONS LEGALES",
@@ -135,6 +136,13 @@
           }
         }
       }
+    }
+  },
+  "remerciement": {
+    "titre": "REMERCIEMENTS",
+    "text": {
+      "partie1": "Suite à l'utilisation des photos disponibles sur",
+      "partie2": ", nous souhaitons remercier :"
     }
   }
 }
