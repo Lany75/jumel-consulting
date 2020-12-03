@@ -1,5 +1,7 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
+
+import logo from '../../images/logo.jpg';
 import "./MenuDesktop.css";
 import "./MenuMobile.css";
 import "./MenuTablet.css";
@@ -8,6 +10,10 @@ const Menu = () => {
   const [t] = useTranslation('translate');
   return (
     <div id="menu-desktop">
+      
+      <img id="logo" src={logo} alt="logo Jumel Consulting" />
+      
+      <div id="menu">
       <a href="#home" className="div-menu">
         {t('menu.accueil', {framework:'React'})}
       </a>
@@ -23,6 +29,7 @@ const Menu = () => {
       <a href="#transition-4" className="div-menu">
       {t('menu.contact', {framework:'React'})}
       </a>
+      </div>
     </div>
   );
 };
